@@ -146,7 +146,7 @@ No dependency is needed on the client side (no DB driver, or third-party
 runtime): it is able to connect via standard HTTP, even through a corporate
 proxy or a VPN. Rich Delphi clients can be deployed just by copying and running
 a stand-alone small executable, with no installation process. Stream can be
-encrypted via HTTS or with proven SHA/AES-256. Endpoints are configured
+encrypted via HTTPS or with proven SHA/AES-256. Endpoints are configured
 automatically for each published interface on both server and client sides,
 and creating a load-balancing proxy is a matter of one method call.
 Speed and scalability has been implemented from the ground up: a genuine
@@ -226,7 +226,7 @@ Some of those units can even be compiled with Delphi 5 (e.g. SynPdf, SynDB).
 
 Quick Steps when upgrading from a previous 1.17 revision:
 
-1) Note that some units where renamed, and some breaking changes introduced
+1) Note that some units were renamed, and some breaking changes introduced
    by some enhanced features, therefore a direct update is not possible
 
 2) Erase or rename your whole previous #\Lib directory
@@ -247,4 +247,4 @@ Quick Steps when upgrading from a previous 1.17 revision:
  - TSQLRestServerCallBackParams replaced by TSQLRestServerURIContext class;
  - TSQLRestServerStatic* classes renamed as TSQLRestStorage*;
  - rmJSON* enums replaced by TSQLRestRoutingREST/JSON_RPC classes;
- - Changed '¤' into '~' character for mORMoti18n language files.
+ - Changed 'Â¤' into '~' character for mORMoti18n language files.
